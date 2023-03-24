@@ -9,5 +9,5 @@ inputs:
     default: '.github/config-for-actions.yml'
     required: true
 runs:
-  using: 'node12'
+  using: 'node16'
   main: './lib/index.js'
